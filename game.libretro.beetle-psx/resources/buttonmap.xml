@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buttonmap>
+	<controller id="game.controller.ps" type="analog">
+		<feature name="cross" mapto="b"/>
+		<feature name="circle" mapto="a"/>
+		<feature name="square" mapto="y"/>
+		<feature name="triangle" mapto="x"/>
+		<feature name="start" mapto="start"/>
+		<feature name="select" mapto="select"/>
+		<feature name="up" mapto="up"/>
+		<feature name="down" mapto="down"/>
+		<feature name="right" mapto="right"/>
+		<feature name="left" mapto="left"/>
+		<feature name="leftbumper" mapto="l"/>
+		<feature name="rightbumper" mapto="r"/>
+		<feature name="lefttrigger" mapto="l2"/>
+		<feature name="righttrigger" mapto="r2"/>
+		<feature name="l3" mapto="l3"/>
+		<feature name="r3" mapto="r3"/>
+	</controller>
+</buttonmap>
