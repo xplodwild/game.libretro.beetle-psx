@@ -21,17 +21,53 @@ msgid "Settings"
 msgstr ""
 
 msgctxt "#30001"
-msgid "Dithering"
+msgid "CD Image Cache"
 msgstr ""
 
 msgctxt "#30002"
-msgid "Dualshock analog button"
+msgid "Skip BIOS"
 msgstr ""
 
 msgctxt "#30003"
-msgid "Port 1: Multitap enable"
+msgid "Widescreen mode hack"
 msgstr ""
 
 msgctxt "#30004"
+msgid "Widescreen hack auto aspect ratio"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Memcard 0 method"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Shared memcards"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Initial scanline"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Initial scanline PAL"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Last scanline"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Last scanline PAL"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Dualshock analog toggle"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Port 1: Multitap enable"
+msgstr ""
+
+msgctxt "#30013"
 msgid "Port 2: Multitap enable"
 msgstr ""
