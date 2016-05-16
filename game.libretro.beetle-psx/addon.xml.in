@@ -8,11 +8,7 @@
 		<import addon="game.controller.ps" version="1.0.0"/>
 	</requires>
 	<extension point="kodi.gameclient"
-                   library_android="libgame.libretro.beetle-psx.so"
-                   library_linux="game.libretro.beetle-psx.so"
-                   library_osx="game.libretro.beetle-psx.dylib"
-                   library_windx="game.libretro.beetle-psx.dll"
-                   library_wingl="game.libretro.beetle-psx.dll">
+                   library_@PLATFORM@="@LIBRARY_FILENAME@">
 		<platforms>PSX</platforms>
 		<extensions>cue|toc|ccd|m3u</extensions>
 		<supports_vfs>false</supports_vfs>
@@ -25,7 +21,7 @@
 Supported files: .cue, .toc, .ccd, .m3u
 
 License: GPLv2</description>
-		<platform>all</platform>
+		<platform>@PLATFORM@</platform>
 		<nofanart>true</nofanart>
 	</extension>
 </addon>
