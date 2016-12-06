@@ -1,27 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.beetle-psx"
-		name="PlayStation (Beetle PSX)"
-		version="0.9.38"
+		name="PlayStation (Mednafen PSX)"
+		version="0.9.39"
 		provider-name="Libretro">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
 		<import addon="game.controller.ps" version="1.0.0"/>
 	</requires>
 	<extension point="kodi.gameclient"
-                   library_@PLATFORM@="@LIBRARY_FILENAME@">
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
 		<platforms>PSX</platforms>
-		<extensions>cue|toc|ccd|m3u</extensions>
+		<extensions>exe|cue|toc|ccd|m3u|pbp</extensions>
 		<supports_vfs>false</supports_vfs>
-		<supports_no_game>false</supports_no_game>
+		<supports_standalone>false</supports_standalone>
+		<supports_keyboard>false</supports_keyboard>
+		<supports_mouse>false</supports_mouse>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Beetle PSX v0.9.38.6</summary>
+		<summary lang="en">PlayStation (Mednafen PSX) 0.9.39.2 ce412d5</summary>
 		<description>Beetle PSX is the PlayStation module of Beetle, a port of Madnafen
 
-Supported files: .cue, .toc, .ccd, .m3u
+Supported files: .exe, .cue, .toc, .ccd, .m3u, .pbp
 
 License: GPLv2</description>
+		<license>GPLv2</license>
 		<platform>@PLATFORM@</platform>
-		<nofanart>true</nofanart>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
 	</extension>
 </addon>
