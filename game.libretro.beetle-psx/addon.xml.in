@@ -10,21 +10,16 @@
 	<extension point="kodi.gameclient"
 			library_@PLATFORM@="@LIBRARY_FILENAME@">
 		<platforms>PSX</platforms>
-		<extensions>exe|cue|toc|ccd|m3u|pbp</extensions>
+		<extensions></extensions>
 		<supports_vfs>false</supports_vfs>
 		<supports_standalone>false</supports_standalone>
 		<supports_keyboard>false</supports_keyboard>
 		<supports_mouse>false</supports_mouse>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">PlayStation (Mednafen PSX) 0.9.39.2 df12620</summary>
-		<description>Beetle PSX is the PlayStation module of Beetle, a port of Madnafen
-
-Supported files: .exe, .cue, .toc, .ccd, .m3u, .pbp</description>
+		<summary lang="en">PlayStation (Mednafen PSX)</summary>
+		<description>Beetle PSX is the PlayStation module of Beetle, a port of Madnafen</description>
 		<license>GPLv2</license>
 		<platform>@PLATFORM@</platform>
-		<assets>
-			<icon>resources/icon.png</icon>
-		</assets>
 	</extension>
 </addon>
