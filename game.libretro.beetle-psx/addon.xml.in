@@ -17,7 +17,7 @@
 		<supports_mouse>false</supports_mouse>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">PlayStation (Mednafen PSX) 0.9.39.2 df12620</summary>
+		<summary lang="en">PlayStation (Mednafen PSX) 0.9.39.2 f12cc2f</summary>
 		<description>Beetle PSX is the PlayStation module of Beetle, a port of Madnafen
 
 Supported files: .exe, .cue, .toc, .ccd, .m3u, .pbp</description>
